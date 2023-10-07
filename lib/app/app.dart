@@ -3,15 +3,14 @@ import 'package:flutter_codepur1/views/home_view.dart';
 
 
 class MyApp extends StatelessWidget {
-  const MyApp({
-    super.key,
-  });
+  const MyApp({super.key,});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return  MaterialApp(
       title: "FlutterRun",
-      home: HomeView() 
-      );
+      theme: ThemeData(primarySwatch: Colors.red),
+      home: const HomeView(),
+    );
   }
 }
