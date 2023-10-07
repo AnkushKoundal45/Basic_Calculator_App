@@ -117,7 +117,7 @@ class CalculatorDisplay extends StatelessWidget {
       
       controller: controller,
       keyboardType: TextInputType.number,
-      autofocus: true,
+      autofocus: false,
       decoration: InputDecoration(
           border: OutlineInputBorder(
             borderSide: BorderSide(
